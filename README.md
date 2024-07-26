@@ -300,7 +300,7 @@ Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-sr
 ```
 
 That was pretty exciting! A full blown TCP/IP connection on a 2G Network in NYC after (edit: (I thought)) they deco'ed 2G!
-...but exciting non the less...
+...but exciting none-the-less...
 
 NOTE: The HTTP AT command sequence did not work:
 
@@ -335,8 +335,8 @@ Sure enough, connected in the city:
 
   
 ## Next Steps
-- Will try the sim800L with particle.io, just for fun.
-- Will try with A9G Boards
+- Will try the sim800L with particle.io. (Edit: it won't work - [you need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
+- Will try with A9G Boards 
 - Will try with a SIMCOM SIM7000A Board
 - Will try with a SIMCOM A7670E 
 
