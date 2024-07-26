@@ -335,7 +335,7 @@ Sure enough, connected in the city:
 
   
 ## Next Steps
-- Will try the sim800L with particle.io. (Edit: it won't work - [you need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
+- Will try the sim800L with particle.io. (Edit: it won't work - [you need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2)).
 - Will try with A9G Boards 
 - Will try with a SIMCOM SIM7000A Board
 - Will try with a SIMCOM A7670E 
