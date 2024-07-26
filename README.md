@@ -51,7 +51,7 @@ uart = machine.UART(0, baudrate=115200, tx=machine.Pin(0), rx=machine.Pin(1))
 | SIM800L VCC | 5V |
 | SIM800L GND | GND |
 
-5 Pins Total, RST and VDD were not needed to be connected. I used a 5V/3A wall power supply and also 4 X 1.2 V AA Enerloop batteries in a pack for the mobile setup to power the pico (with the latter I connected SIM800L VCC  to pin 39/VSYS of the Pico).
+So in summary 5 Pins Total are needed as above. RST and VDD were not needed to be connected. I used a 5V/3A wall power supply and also 4 X 1.2 V AA Enerloop batteries in a pack for the mobile setup to power the pico (with the latter I connected SIM800L VCC  to pin 39/VSYS of the Pico).
 
 ### Tips from Arduino Forum
 ```
