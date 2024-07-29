@@ -102,7 +102,7 @@ It's mostly anecdotes here and there that you cobble together (voila!).
 
 
 
-## Full Micropython Example
+### Full Micropython Example
 
 ```
 import time
@@ -318,7 +318,7 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
  but now we have a way forward for connectivity! 
  
 
-## Sim900 
+### Sim900 
 - The sim900 is the older type (now obsolete), it's ["predecessor is the SIM800"](https://forum.arduino.cc/t/sim800l-vs-sim900/349026/8).
 - Code is the same, got an IP  but not able to connect to 'net with it ( 1 out of 2 modems from Ali also did not work).
 - I connected 3VT to pico Pin 1 (RX) and 3VR to pico Pin 0 (TX) (using the larger external 2-pin JST  connector)
