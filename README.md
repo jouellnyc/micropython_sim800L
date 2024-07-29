@@ -331,7 +331,12 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 | <img src="https://github.com/user-attachments/assets/24d3fb01-ae98-4c8d-8039-1b57f9a88322" width="250" height="350"> | https://acoptex.com/wp/wp-content/uploads/2019/12/SIM900Apro3.jpg |
 
 - You need the mini, not nano Sim here for this board
- 
+
+   
+### Particle.io won't work with these. 
+[You need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
+
+
 ## Takeaways/ Learnings
 - Keep your costs low and test out vendors before commiting. 
 - At first I was not sure who to believe, really. Hologram definitely worked, but then seems to stop working.
@@ -344,11 +349,6 @@ Sure enough, connected in the city:
 ![image](https://github.com/user-attachments/assets/8e61b6f6-0e99-4915-93c0-018ba5be8854)
 
 ![image](https://github.com/user-attachments/assets/7ac353fc-b169-4783-b931-fb7b6dc3951f)
-
-  
-## Particle.io won't work with these. 
-[You need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
-
 
 ## References
 
