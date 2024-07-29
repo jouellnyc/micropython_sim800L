@@ -321,7 +321,7 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 ## Sim900 
 - The sim900 is the older type (now obsolete), it's ["predecessor is the SIM800"](https://forum.arduino.cc/t/sim800l-vs-sim900/349026/8).
 - Code is the same, got an IP  but not able to connect to 'net with it ( 1 out of 2 modems from Ali also did not work).
-- I connected 3VT to pico Pin 1 (RX) and 3VR to pico Pin 0 (TX)
+- I connected 3VT to pico Pin 1 (RX) and 3VR to pico Pin 0 (TX) (using the larger external 2-pin JST  connector)
 - The pico was able to power the sim900 on it's own (pin 39 PWR and pin 38 GND)
 - The PCB lettering is tiny, use the picture here:
 <img src="https://github.com/user-attachments/assets/24d3fb01-ae98-4c8d-8039-1b57f9a88322" width=250 height=350>
