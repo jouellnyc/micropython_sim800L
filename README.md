@@ -333,9 +333,8 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 - You need the mini, not nano Sim here for this board
 
    
-### Particle.io won't work with these. 
-[You need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
-
+#### I next tried with Hologram.io.
+Particle.io won't work with these. [You need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
 
 ## Takeaways/ Learnings
 - Keep your costs low and test out vendors before commiting. 
