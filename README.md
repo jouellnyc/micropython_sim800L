@@ -324,11 +324,11 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 - I connected 3VT to pico Pin 1 (RX) and 3VR to pico Pin 0 (TX) (using the larger external 2-pin JST  connector)
 - The pico was able to power the sim900 on it's own (pin 39 PWR and pin 38 GND)
 - The PCB lettering is tiny, use the picture here:
-<img src="https://github.com/user-attachments/assets/24d3fb01-ae98-4c8d-8039-1b57f9a88322" width=250 height=350>
-Source: https://acoptex.com/wp/wp-content/uploads/2019/12/SIM900Apro3.jpg
-
+| Image                                 | Source                                         |
+|-----------------------------------------|-------------------------------------------------|
+| <img src="https://github.com/user-attachments/assets/24d3fb01-ae98-4c8d-8039-1b57f9a88322" width="250" height="350"> | https://acoptex.com/wp/wp-content/uploads/2019/12/SIM900Apro3.jpg |
 - You need the mini, not nano Sim here for this board
-  
+ 
 ## Takeaways/ Learnings
 - Keep your costs low and test out vendors before commiting. 
 - At first I was not sure who to believe, really. Hologram definitely worked, but then seems to stop working.
