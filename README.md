@@ -323,7 +323,9 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 - Code is exactly the same, I got an IP address but did not connect with it.
 - I connected 3VT to pico Pin 1 (RX) and 3VR to pico Pin 0 (TX)
 - You need the mini not nano Sim here:
-![image](https://github.com/user-attachments/assets/c777cac9-3120-4c4e-86e0-5f3e42b7410f)
+
+<img src="https://github.com/user-attachments/assets/c777cac9-3120-4c4e-86e0-5f3e42b7410f" width=250 height=350>
+
 Source: https://acoptex.com/wp/wp-content/uploads/2019/12/SIM900Apro3.jpg
 
 ## Takeaways/ Learnings
