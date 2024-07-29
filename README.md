@@ -318,7 +318,13 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
  but now we have a way forward for connectivity! 
  
 
-
+## Sim900 
+- The sim900 is the older type (now obsolete), it's ["predecessor is the SIM800"](https://forum.arduino.cc/t/sim800l-vs-sim900/349026/8).
+- Code is exactly the same, I got an IP address but did not connect with it.
+- I connected 3VT to pico Pin 1 (RX) and 3VR to pico Pin 0 (TX)
+- You need the mini not nano Sim here:
+![image](https://github.com/user-attachments/assets/c777cac9-3120-4c4e-86e0-5f3e42b7410f)
+Source: https://acoptex.com/wp/wp-content/uploads/2019/12/SIM900Apro3.jpg
 
 ## Takeaways/ Learnings
 - Keep your costs low and test out vendors before commiting. 
@@ -337,6 +343,7 @@ Sure enough, connected in the city:
 ## Next Steps
 - Will try the sim800L with particle.io. (Edit: it won't work - [you need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2)).
 - Will try with A9G Boards 
+- Will try with sim900 (done)
 - Will try with a SIMCOM SIM7000A Board
 - Will try with a SIMCOM A7670E 
 
