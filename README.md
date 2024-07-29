@@ -347,7 +347,7 @@ Sure enough, connected in the city:
 
   
 ## Particle.io won't work with these. 
-[You need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2)).
+[You need a particle specific board](https://community.particle.io/t/support-for-raspberry-pico/67255/2).
 
 
 ## References
