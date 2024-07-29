@@ -326,6 +326,7 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 - The PCB lettering is tiny, use the picture here:
 <img src="https://github.com/user-attachments/assets/24d3fb01-ae98-4c8d-8039-1b57f9a88322" width=250 height=350>
 Source: https://acoptex.com/wp/wp-content/uploads/2019/12/SIM900Apro3.jpg
+
 - You need the mini, not nano Sim here for this board
   
 ## Takeaways/ Learnings
