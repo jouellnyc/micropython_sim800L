@@ -53,7 +53,7 @@ uart = machine.UART(0, baudrate=115200, tx=machine.Pin(0), rx=machine.Pin(1))
 
 So in summary 5 Pins Total are needed as above. RST and VDD were not needed to be connected. I used a 5V/3A wall power supply and also 4 X 1.2 V AA Enerloop batteries in a pack for the mobile setup to power the pico (with the latter I connected SIM800L VCC  to pin 39/VSYS of the Pico).
 
-### Tips from Arduino Forum
+## Tips from Arduino Forum
 ```
 You should be very careful to:
 
@@ -63,14 +63,14 @@ You should be very careful to:
 Otherwise, the module can use the low voltage serial pins as ground and can get destroyed instantly.
 ```
 
-### Notes from Arduino Forum
+## Notes from Arduino Forum
 ```
 **Blink every 1s:**The module is running but hasn’t made connection to the cellular network yet.
 **Blink every 2s:**The GPRS data connection you requested is active.
 **Blink every 3s:**The module has made contact with the cellular network & can send/receive voice and SMS.
 ```
 
-### Vendors
+## Vendors
 
 #### I first tried with Hologram.io.
 
