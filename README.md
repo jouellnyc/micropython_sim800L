@@ -1,4 +1,4 @@
-## Raspi Pico and SIM800L 
+## Raspi Pico, IOT, and SIM800L (and some SIM900) 
 
 ##  BackStory
 
