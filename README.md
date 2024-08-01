@@ -141,7 +141,7 @@ uart.write(b'AT+CGATT?\r\n')          ; get()
 
 #Connect 
 
-AT+CGDCONT=1,"IP","hologram" 
+uart.write(b'AT+CGDCONT=1,"IP","hologram"\r\n'); get(15)
 #AT+CIICR Bring up wireless connection with GPRS or CSD
 uart.write(b'AT+CIICR\r\n')           ; get(15)
 
